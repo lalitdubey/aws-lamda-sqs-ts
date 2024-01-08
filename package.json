@@ -1,0 +1,25 @@
+{
+  "name": "aws-lamda-sqs-ts",
+  "version": "1.0.0",
+  "description": "typescript version of aws-lamda-sqs project",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/handler.ts",
+    "build": "tsc",
+    "deploy": "serverless deploy"
+  },
+  "keywords": [],
+  "author": "Lalit Dubey",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.131",
+    "@types/node": "^20.10.7",
+    "serverless": "^3.38.0",
+    "serverless-plugin-typescript": "^2.1.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1531.0"
+  }
+}
